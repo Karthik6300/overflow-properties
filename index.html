@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <center><h1>OVER-FLOW-PROPERTIES</h1></center>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .div1 {
+        border: 2px solid black;
+        width: 350px;
+        height: 500px;
+        display: inline-block;
+        margin-left: 240px;
+        margin-top: 120px;
+        border-top-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+      }
+      .img1 {
+        margin-left: 75px;
+        margin-top: 50px;
+        border-top-left-radius: 90px;
+        border-top-right-radius: 90px;
+        border-bottom-right-radius: 90px;
+        border-bottom-left-radius: 90px;
+      }
+      .h1 {
+        margin-left: 330px;
+        margin-top: -300px;
+        font-size: 7mm;
+      }
+      .h2 {
+        margin-left: 930px;
+        margin-top: -50px;
+        font-size: 7mm;
+      }
+      .p1 {
+        border: 2px solid black;
+        width: 200px;
+        height: 200px;
+        margin-left: 310px;
+        margin-top: 15px;
+        background-color: aqua;
+      }
+      .p2 {
+        border: 2px solid black;
+        width: 200px;
+        height: 200px;
+        margin-left: 915px;
+        margin-top: 10px;
+        background-color: aquamarine;
+      }
+      .para1{
+        border: 2px solid black;
+        width: 170px;
+        height: 20px; 
+        margin-left: 320px;
+        margin-top: 10px;
+        background-color: greenyellow;
+        font-style: italic;
+
+      }
+      .para2{
+        border: 2px solid black;
+        width: 170px;
+        height: 20px;
+        margin-left: 930px;
+        margin-top: -260px;
+        background-color: greenyellow;
+        font-style: italic;
+      }
+      .para1:hover + .p1{
+        visibility: visible;
+      }
+      .p1{
+        visibility: hidden;
+      }
+      .para2:hover + .p2{
+        visibility: visible;
+      }
+      .p2{
+        visibility: hidden;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="div1">
+      <img
+        class="img1"
+        src="https://img.jagranjosh.com/images/2022/March/2832022/SS-Rajamouli-Biography-RRR-director.jpg"
+        height="150px"
+        width="200px"
+        alt=""
+      />
+    </div>
+    <div class="div1">
+      <img
+        class="img1"
+        src="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/DIMXVNEVJJOQPB5XYXADZYR2VA.jpg"
+        height="150px"
+        width="200px"
+        alt="James Cameron"
+      />
+    </div>
+    <h1 class="h1">SS-Rajamouli</h1>
+    <h1 class="h2">James Cameron</h1>
+    <p class="para1">Hover here to see more---</p>
+    <p class="p1">
+      Koduri Srisaila Sri Rajamouli born 10 October 1973 is an Indian filmmaker
+      who primarily works in Telugu cinema. Known for his epic, action and
+      fantasy genre films, he is considered the highest grossing Indian director
+      of all time,[2] as well as the highest-paid director in Indian cinema.
+    </p>
+    <p class="para2">Hover here to see more---</p>
+    <p class="p2">
+      James Francis Cameron CC (born August 16, 1954) is a Canadian filmmaker.
+      He is a major figure in the post-New Hollywood era and often uses novel
+      technologies with a classical filmmaking style. He first gained
+      recognition for writing and directing The Terminator (1984).
+    
+   
+  </body>
+</html>
